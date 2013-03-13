@@ -32,7 +32,6 @@ setup(
     packages=[
         'flask_angular'
     ],
-    package_data={'flask_angular': ['flask_angular/templates/*']},
     include_package_data=True,
     test_suite='nose.collector',
     zip_safe=False,
